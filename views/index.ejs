@@ -1,0 +1,34 @@
+<% include header %>
+<!-- SALON AREA START -->
+
+<div class="blog__area section-padding">
+    <div class="container">
+        <div class="row">
+
+
+
+            <!--            ADD all SALONS -->
+            <%salons.forEach(function(salon){%>
+            <div class="col-xl-4 mb-5">
+                <div class="blog__area-item">
+                    <div class="blog__area-item-image">
+                        <%if (salon.image){%>
+                            <a href="salon/<%= salon.id %>"><img src="/images/salons/<%= salon.image %>" alt=""></a>
+                        <%}else{%>
+                            <a href="salon/<%= salon.id %>"><img src="assets/img/blog/blog-2.jpg" alt=""></a>
+                        <%}%>
+                    </div>
+                    <div class="blog__area-item-content">
+                        <h4><a href="salon/<%= salon.id %>"><%= salon.name %></a></h4>
+                        <a href="salon/<%= salon.id %>" class="simple-btn">Know More<i class="far fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <%})%>
+
+        </div>
+    </div>
+</div>
+
+<% include footer %>
