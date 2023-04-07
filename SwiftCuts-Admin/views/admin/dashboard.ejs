@@ -1,0 +1,2834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="wingo /admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 /admin template with unlimited possibilities.">
+    <meta name="keywords" content="/admin template, wingo /admin template, dashboard template, flat /admin template, responsive /admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="/admin/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/admin/images/favicon.png" type="image/x-icon">
+    <title><%= title %>></title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/chartist.css">
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/owlcarousel.css">
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/prism.css">
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/slick-theme.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/vendors/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/style.css">
+    <link id="color" rel="stylesheet" href="/admin/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="/admin/css/responsive.css">
+  </head>
+  <body>
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+      <div class="main-loader">
+        <div class="bar-0"></div>
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+        <div class="bar-4"></div>
+      </div>
+      <div class="loading">Loading...    </div>
+    </div>
+    <!-- Loader ends-->
+
+
+
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+
+      
+      <!-- Page Header Start-->
+      <div class="page-main-header">
+        <div class="main-header-right row m-0">
+          <div class="main-header-left">
+            <div class="logo-wrapper"><a href="/"><img class="img-fluid" src="/admin/images/logo/logo.png" alt=""></a></div>
+          </div>
+          <div class="toggle-sidebar"><i class="status_toggle middle" data-feather="align-center" id="sidebar-toggle"></i></div>
+          <div class="left-menu-header col">
+            <ul>
+              <li>
+                <form class="form-inline search-form">
+                  <div class="search-bg"><i class="fa fa-search"></i></div>
+                  <input class="form-control-plaintext" placeholder="Search here.....">
+                </form><span class="d-sm-none mobile-search search-bg"><i class="fa fa-search"></i></span>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right col pull-right right-menu">
+            <ul class="nav-menus">
+
+              <li class="onhover-dropdown">
+                <div class="notification-box"><i data-feather="bell"></i><span class="badge badge-pill badge-primary">4</span></div>
+                <div class="notification-dropdown onhover-show-div">
+                  <div class="m-3"><a class="btn btn-dark w-100" href="email_inbox.html">You have 4 notifications</a></div>
+                  <ul class="border-top">
+                    <li>
+                      <p class="mb-0 ps-4 p-relative"><a href="to-do.html"><i class="fa fa-circle me-3 font-primary"> </i>Delivery processing <span class="pull-right">10 min.</span></a></p>
+                    </li>
+                    <li>
+                      <p class="mb-0 ps-4 p-relative"><a href="to-do.html"><i class="fa fa-circle me-3 font-success"></i>Order Complete<span class="pull-right">1 hr</span></a></p>
+                    </li>
+                    <li>
+                      <p class="mb-0 ps-4 p-relative"><a href="to-do.html"><i class="fa fa-circle me-3 font-info"></i>Tickets Generated<span class="pull-right">3 hr</span></a></p>
+                    </li>
+                    <li>
+                      <p class="mb-0 ps-4 p-relative"><a href="to-do.html"><i class="fa fa-circle me-3 font-warning"></i>Delivery Complete<span class="pull-right">6 hr  </span></a></p>
+                    </li>
+                  </ul>
+                  <div class="m-3 mt-1"><a class="btn btn-light w-100" href="email_inbox.html">View all</a></div>
+                </div>
+              </li>
+
+              <li class="onhover-dropdown"><i data-feather="message-square"></i>
+                <div class="chat-dropdown onhover-show-div">                   
+                  <div class="m-3"><a class="btn btn-dark w-100" href="chat.html">You have 3 message</a></div>
+                  <ul class="border-top custom-scrollbar"> 
+                    <li>
+                      <div class="media"><img class="img-fluid rounded-circle me-3" src="/admin/images/avtar/emoji/7.png" alt="">
+                        <div class="status-circle online"></div>
+                        <div class="media-body"><a href="chat.html"><span>Erica Hughes</span></a>
+                          <p class="f-12 light-font">okay, trying now.</p>
+                        </div>
+                        <p class="badge badge-primary">32 min</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media"><img class="img-fluid rounded-circle me-3" src="/admin/images/avtar/emoji/8.png" alt="">
+                        <div class="status-circle away"></div>
+                        <div class="media-body"><a href="chat.html"><span>Kori Thomas</span></a>
+                          <p class="f-12 light-font">i could help in some of bug?</p>
+                        </div>
+                        <p class="badge badge-success">58 min</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media"><img class="img-fluid rounded-circle me-3" src="/admin/images/avtar/emoji/4.png" alt="">
+                        <div class="status-circle offline"></div>
+                        <div class="media-body"><a href="chat.html"><span>Ain Chavez</span></a>
+                          <p class="f-12 light-font">It's working awesome :)</p>
+                        </div>
+                        <p class="badge badge-danger">1 hr</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media"><img class="img-fluid rounded-circle me-3" src="/admin/images/avtar/emoji/1.png" alt="">
+                        <div class="status-circle offline"></div>
+                        <div class="media-body"><a href="chat.html"><span>Johan deo</span></a>
+                          <p class="f-12 light-font">Great Thanks you !!</p>
+                        </div>
+                        <p class="badge badge-danger">2 hr</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="m-3"><a class="btn btn-light w-100" href="chat.html">View all</a></div>
+                </div>
+              </li>
+
+              <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize"></i></a></li>
+              <li >
+                <div class="media profile-media">
+                  <a href="profile">
+                    <img class="rounded-circle" src="/admin/images/avtar/emoji/9.png" alt="">
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="d-lg-none col mobile-toggle pull-right"><i data-feather="more-horizontal"></i></div>
+        </div>
+      </div>
+      <!-- Page Header Ends                              -->
+
+
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper sidebar-icon">
+        <!-- Page Sidebar Start-->
+        <header class="main-nav">
+          <div class="logo-wrapper"><a href="/admin"><img class="img-fluid" src="/admin/images/logo/logo.png" alt=""></a></div>
+          <div class="logo-icon-wrapper"><a href="/admin"><img class="img-fluid" src="/admin/images/logo/logo-icon.png" alt=""></a></div>
+          <div class="morden-logo"><a href="/admin"><img class="img-fluid" src="/admin/images/logo/morden-logo.png" alt=""></a></div>
+
+          <nav>
+            <div class="main-navbar">
+              <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+              <div id="mainnav">
+                <ul class="nav-menu custom-scrollbar">
+                  <li class="back-btn">
+                    <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
+                  </li>
+
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="home"></i><span>Dashboard</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="index.html">Default</a></li>
+                      <li><a href="dashboard-02.html">Ecommerce</a></li>
+                      <li><a href="dashboard-03.html">Project</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="airplay"></i><span>Widgets</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="general-widget.html">General</a></li>
+                      <li><a href="chart-widget.html">Chart</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="layout"></i><span>Page layout</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="box-layout.html">Boxed</a></li>
+                      <li><a href="layout-rtl.html">RTL             </a></li>
+                      <li><a href="layout-dark.html">Dark Layout             </a></li>
+                      <li><a href="footer-light.html">Footer Light</a></li>
+                      <li><a href="footer-dark.html">Footer Dark</a></li>
+                      <li><a href="footer-fixed.html">Footer Fixed</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="box"></i><span>Project  </span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="projects.html">Project List</a></li>
+                      <li><a href="projectcreate.html">Create new</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="file-manager.html"><i data-feather="git-pull-request"> </i><span>File manager       </span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="kanban.html"><i data-feather="monitor"> </i><span>kanban Board</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="shopping-bag"></i><span>Ecommerce          </span></a>
+                    <ul class="nav-submenu menu-content">        
+                      <li><a href="product.html">Product</a></li>
+                      <li><a href="product-page.html">Product page</a></li>
+                      <li><a href="list-products.html">Product list</a></li>
+                      <li><a href="payment-details.html">Payment Details</a></li>
+                      <li><a href="order-history.html">Order History</a></li>
+                      <li><a href="invoice-template.html">Invoice</a></li>
+                      <li><a href="cart.html">Cart</a></li>
+                      <li><a href="list-wish.html">Wishlist</a></li>
+                      <li><a href="checkout.html">Checkout</a></li>
+                      <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="mail"></i><span>Email</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="email_inbox.html">Mail Inbox</a></li>
+                      <li><a href="email_read.html">Read mail</a></li>
+                      <li><a href="email_compose.html">Compose</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="message-circle"></i><span>Chat</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="chat.html">Chat App</a></li>
+                      <li><a href="chat-video.html">Video chat</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="users"></i><span>Users</span></a>
+                    <ul class="nav-submenu menu-content">            
+                      <li><a href="user-profile.html">Users Profile</a></li>
+                      <li><a href="edit-profile.html">Users Edit</a></li>
+                      <li><a href="user-cards.html">Users Cards</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="bookmark.html"><i data-feather="heart"> </i><span>Bookmarks</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="contacts.html"><i data-feather="list"> </i><span>Contacts</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="task.html"><i data-feather="check-square"> </i><span>Tasks</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="calendar-basic.html"><i data-feather="calendar"> </i><span>Calender</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="social-app.html"><i data-feather="zap"> </i><span>Social App</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="to-do.html"><i data-feather="clock"> </i><span>To-Do</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="search.html"><i data-feather="search"> </i><span>Search Result</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="file-text"></i><span>Forms</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a class="submenu-title" href="javascript:void(0)">Form Controls<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="form-validation.html">Form Validation</a></li>
+                          <li><a href="base-input.html">Base Inputs</a></li>
+                          <li><a href="radio-checkbox-control.html">Checkbox & Radio</a></li>
+                          <li><a href="input-group.html">Input Groups</a></li>
+                          <li><a href="megaoptions.html">Mega Options</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="datepicker.html">Datepicker</a></li>
+                          <li><a href="time-picker.html">Timepicker</a></li>
+                          <li><a href="datetimepicker.html">Datetimepicker</a></li>
+                          <li><a href="daterangepicker.html">Daterangepicker</a></li>
+                          <li><a href="touchspin.html">Touchspin</a></li>
+                          <li><a href="select2.html">Select2</a></li>
+                          <li><a href="switch.html">Switch</a></li>
+                          <li><a href="typeahead.html">Typeahead</a></li>
+                          <li><a href="clipboard.html">Clipboard</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Form layout<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="default-form.html">Default Forms</a></li>
+                          <li><a href="form-wizard.html">Form Wizard 1</a></li>
+                          <li><a href="form-wizard-two.html">Form Wizard 2</a></li>
+                          <li><a href="form-wizard-three.html">Form Wizard 3                 </a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="server"></i><span>Tables</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="bootstrap-basic-table.html">Basic Tables</a></li>
+                          <li><a href="bootstrap-sizing-table.html">Sizing Tables</a></li>
+                          <li><a href="bootstrap-border-table.html">Border Tables</a></li>
+                          <li><a href="bootstrap-styling-table.html">Styling Tables</a></li>
+                          <li><a href="table-components.html">Table components</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Data Tables<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="datatable-basic-init.html">Basic Init</a></li>
+                          <li><a href="datatable-advance.html">Advance Init</a></li>
+                          <li><a href="datatable-styling.html">Styling</a></li>
+                          <li><a href="datatable-AJAX.html">AJAX</a></li>
+                          <li><a href="datatable-server-side.html">Server Side</a></li>
+                          <li><a href="datatable-plugin.html">Plug-in</a></li>
+                          <li><a href="datatable-API.html">API</a></li>
+                          <li><a href="datatable-data-source.html">Data Sources</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Ex. Data Tables<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="datatable-ext-autofill.html">Auto Fill</a></li>
+                          <li><a href="datatable-ext-basic-button.html">Basic Button</a></li>
+                          <li><a href="datatable-ext-col-reorder.html">Column Reorder</a></li>
+                          <li><a href="datatable-ext-fixed-header.html">Fixed Header</a></li>
+                          <li><a href="datatable-ext-html-5-data-export.html">HTML 5 Export</a></li>
+                          <li><a href="datatable-ext-key-table.html">Key Table</a></li>
+                          <li><a href="datatable-ext-responsive.html">Responsive</a></li>
+                          <li><a href="datatable-ext-row-reorder.html">Row Reorder</a></li>
+                          <li><a href="datatable-ext-scroller.html">Scroller</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="jsgrid-table.html">Js Grid Table</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="box"></i><span>Ui Kits</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="state-color.html">State color</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                      <li><a href="avatars.html">Avatars</a></li>
+                      <li><a href="helper-classes.html">helper classes</a></li>
+                      <li><a href="grid.html">Grid</a></li>
+                      <li><a href="tag-pills.html">Tag & pills</a></li>
+                      <li><a href="progress-bar.html">Progress</a></li>
+                      <li><a href="modal.html">Modal</a></li>
+                      <li><a href="alert.html">Alert</a></li>
+                      <li><a href="popover.html">Popover</a></li>
+                      <li><a href="tooltip.html">Tooltip</a></li>
+                      <li><a href="loader.html">Spinners</a></li>
+                      <li><a href="dropdown.html">Dropdown</a></li>
+                      <li><a href="according.html">Accordion</a></li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Tabs<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="tab-bootstrap.html">Bootstrap Tabs</a></li>
+                          <li><a href="tab-material.html">Line Tabs</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="box-shadow.html">Shadow</a></li>
+                      <li><a href="list.html">Lists</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="folder-plus"></i><span>Bonus Ui</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="scrollable.html">Scrollable</a></li>
+                      <li><a href="tree.html">Tree view</a></li>
+                      <li><a href="bootstrap-notify.html">Bootstrap Notify</a></li>
+                      <li><a href="rating.html">Rating</a></li>
+                      <li><a href="dropzone.html">dropzone</a></li>
+                      <li><a href="tour.html">Tour</a></li>
+                      <li><a href="sweet-alert2.html">SweetAlert2</a></li>
+                      <li><a href="modal-animated.html">Animated Modal</a></li>
+                      <li><a href="owl-carousel.html">Owl Carousel</a></li>
+                      <li><a href="ribbons.html">Ribbons</a></li>
+                      <li><a href="pagination.html">Pagination</a></li>
+                      <li><a href="steps.html">Steps</a></li>
+                      <li><a href="breadcrumb.html">Breadcrumb</a></li>
+                      <li><a href="range-slider.html">Range Slider</a></li>
+                      <li><a href="image-cropper.html">Image cropper</a></li>
+                      <li><a href="sticky.html">Sticky</a></li>
+                      <li><a href="basic-card.html">Basic Card</a></li>
+                      <li><a href="creative-card.html">Creative Card</a></li>
+                      <li><a href="tabbed-card.html">Tabbed Card</a></li>
+                      <li><a href="dragable-card.html">Draggable Card</a></li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Timeline<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="timeline-v-1.html">Timeline 1</a></li>
+                          <li><a href="timeline-v-2.html">Timeline 2                   </a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="edit-3"></i><span>Builders</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="form-builder-1.html"> Form Builder 1</a></li>
+                      <li><a href="form-builder-2.html"> Form Builder 2</a></li>
+                      <li><a href="pagebuild.html">Page Builder</a></li>
+                      <li><a href="button-builder.html">Button Builder</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="cloud-drizzle"></i><span>Animation</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="animate.html">Animate</a></li>
+                      <li><a href="scroll-reval.html">Scroll Reveal</a></li>
+                      <li><a href="AOS.html">AOS animation</a></li>
+                      <li><a href="tilt.html">Tilt Animation</a></li>
+                      <li><a href="wow.html">Wow Animation</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="command"></i><span>Icons</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="flag-icon.html">Flag icon</a></li>
+                      <li><a href="font-awesome.html">Fontawesome Icon</a></li>
+                      <li><a href="ico-icon.html">Ico Icon</a></li>
+                      <li><a href="themify-icon.html">Thimify Icon</a></li>
+                      <li><a href="feather-icon.html">Feather icon</a></li>
+                      <li><a href="whether-icon.html">Whether Icon             </a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="cloud"></i><span>Buttons</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="buttons.html">Default Style</a></li>
+                      <li><a href="buttons-flat.html">Flat Style</a></li>
+                      <li><a href="buttons-edge.html">Edge Style</a></li>
+                      <li><a href="raised-button.html">Raised Style</a></li>
+                      <li><a href="button-group.html">Button Group</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="bar-chart"></i><span>Charts</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="chart-apex.html">Apex Chart</a></li>
+                      <li><a href="chart-google.html">Google Chart</a></li>
+                      <li><a href="chart-sparkline.html">Sparkline chart</a></li>
+                      <li><a href="chart-flot.html">Flot Chart</a></li>
+                      <li><a href="chart-knob.html">Knob Chart</a></li>
+                      <li><a href="chart-morris.html">Morris Chart</a></li>
+                      <li><a href="chartjs.html">Chatjs Chart</a></li>
+                      <li><a href="chartist.html">Chartist Chart</a></li>
+                      <li><a href="chart-peity.html">Peity Chart </a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="landing-page.html" target="_blank"><i data-feather="cast"> </i><span>Landing page</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="sample-page.html" target="_blank"><i data-feather="file-text"> </i><span>Sample page</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="internationalization.html" target="_blank"><i data-feather="globe"> </i><span>Internationalization</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="../starter-kit/index.html" target="_blank"><i data-feather="anchor"></i><span>Starter kit          </span></a></li>
+                  <li class="mega-menu"><a class="nav-link menu-title" href="#"><i data-feather="layers"></i><span>Others</span></a>
+                    <div class="mega-menu-container menu-content">
+                      <div class="container">
+                        <div class="row">                
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5>Error Page</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="error-page1.html">Error Page 1</a></li>
+                                <li><a href="error-page2.html">Error Page 2</a></li>
+                                <li><a href="error-page3.html">Error Page 3</a></li>
+                                <li><a href="error-page4.html">Error Page 4                          </a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5> Authentication</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="login.html" target="_blank">Login Simple</a></li>
+                                <li><a href="login-one.html" target="_blank">Login with bg image</a></li>
+                                <li><a href="login-two.html" target="_blank">Login with image two                      </a></li>
+                                <li><a href="login-bs-validation.html" target="_blank">Login With validation</a></li>
+                                <li><a href="login-bs-tt-validation.html" target="_blank">Login with tooltip</a></li>
+                                <li><a href="login-sa-validation.html" target="_blank">Login with sweetalert</a></li>
+                                <li><a href="sign-up.html" target="_blank">Register Simple</a></li>
+                                <li><a href="sign-up-one.html" target="_blank">Register with Bg Image</a></li>
+                                <li><a href="sign-up-two.html" target="_blank">Register with Bg video                       </a></li>
+                                <li><a href="unlock.html">Unlock User</a></li>
+                                <li><a href="forget-password.html">Forget Password</a></li>
+                                <li><a href="creat-password.html">Creat Password</a></li>
+                                <li><a href="maintenance.html">Maintenance</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5>Coming Soon</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="comingsoon.html">Coming Simple</a></li>
+                                <li><a href="comingsoon-bg-video.html">Coming with Bg video</a></li>
+                                <li><a href="comingsoon-bg-img.html">Coming with Bg Image</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5>Email templates</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="basic-template.html">Basic Email</a></li>
+                                <li><a href="email-header.html">Basic With Header</a></li>
+                                <li><a href="template-email.html">Ecomerce Template</a></li>
+                                <li><a href="template-email-2.html">Email Template 2</a></li>
+                                <li><a href="ecommerce-templates.html">Ecommerce Email</a></li>
+                                <li><a href="email-order-success.html">Order Success</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="image"></i><span>Gallery</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="gallery.html">Gallery Grid</a></li>
+                      <li><a href="gallery-with-description.html">Gallery Grid Desc</a></li>
+                      <li><a href="gallery-masonry.html">Masonry Gallery</a></li>
+                      <li><a href="masonry-gallery-with-disc.html">Masonry with Desc</a></li>
+                      <li><a href="gallery-hover.html">Hover Effects</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="film"></i><span>Blog</span></a>
+                    <ul class="nav-submenu menu-content">                       
+                      <li><a href="blog.html">Blog Details</a></li>
+                      <li><a href="blog-single.html">Blog Single</a></li>
+                      <li><a href="add-post.html">Add Post</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="faq.html"><i data-feather="help-circle"></i><span>FAQ</span></a></li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="package"></i><span>Job Search</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="job-cards-view.html">Cards view</a></li>
+                      <li><a href="job-list-view.html">List View</a></li>
+                      <li><a href="job-details.html">Job Details</a></li>
+                      <li><a href="job-apply.html">Apply</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="radio"></i><span>Learning</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="learning-list-view.html">Learning List</a></li>
+                      <li><a href="learning-detailed.html">Detailed Course</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="map"></i><span>Maps</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="map-js.html">Maps JS</a></li>
+                      <li><a href="vector-map.html">Vector Maps</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="edit"></i><span>Editors</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="summernote.html">Summer Note</a></li>
+                      <li><a href="ckeditor.html">CK editor</a></li>
+                      <li><a href="simple-MDE.html">MDE editor</a></li>
+                      <li><a href="ace-code-editor.html">ACE code editor</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title" href="javascript:void(0)"><i data-feather="sunrise"></i><span>Knowledgebase</span></a>
+                    <ul class="nav-submenu menu-content">
+                      <li><a href="knowledgebase.html">Knowledgebase</a></li>
+                      <li><a href="knowledge-category.html">Knowledge category</a></li>
+                      <li><a href="knowledge-detail.html">Knowledge detail</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="nav-link menu-title link-nav" href="support-ticket.html"><i data-feather="users"></i><span>Support Ticket         </span></a></li>
+                </ul>
+              </div>
+              <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+            </div>
+          </nav>
+        </header>
+        <!-- Page Sidebar Ends-->
+        <div class="page-body ecommerce-dash">
+          <div class="container-fluid">
+            <div class="page-header dash-breadcrumb">
+              <div class="row">
+                <div class="col-6">                              
+                  <h3 class="f-w-600">default</h3>
+                </div>
+                <div class="col-6">
+                  <div class="breadcrumb-sec">
+                    <ul class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="index.html"><i data-feather="home"></i></a></li>
+                      <li class="breadcrumb-item">Dashboard</li>
+                      <li class="breadcrumb-item active">Ecommerce</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row size-column">
+              <div class="col-xl-12 box-col-12">
+                <div class="card perform-overview-sec">
+                  <div class="card-header">
+                    <h5>Performance Overview                   </h5>
+                  </div>
+                  <div class="card-body p-t-0">
+                    <div class="media d-none">
+                      <div class="badge-groups w-100 px-0">
+                        <h5 class="font-light">Performance Overview</h5>
+                      </div>
+                    </div>
+                    <div class="slide-4 overview">
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_1.png" alt="Image description"><span class="font-primary">Total Revenue</span></li>
+                                  <li>
+                                    <h4 class="counter">985624</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +98%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-a" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#4d8aff"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart1"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_1.png" alt="Image description"><span class="font-primary">Total Sale</span></li>
+                                  <li>
+                                    <h4 class="counter">6895</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +82%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-b" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#f73164"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart2"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_3.png" alt="Image description"><span class="font-success">Total Client</span></li>
+                                  <li>
+                                    <h4 class="counter">1568</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +96%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-c" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#46d15e"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart3"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_4.png" alt="Image description"><span class="font-warning">Total Product</span></li>
+                                  <li>
+                                    <h4 class="counter">850</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +79%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-d" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#ff781e"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart4"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_1.png" alt="Image description"><span class="font-primary">Total Revenue</span></li>
+                                  <li>
+                                    <h4 class="counter">985624</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +98%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-a" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#4d8aff"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart5"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_1.png" alt="Image description"><span class="font-primary">Total Sale</span></li>
+                                  <li>
+                                    <h4 class="counter">6895</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +82%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-b" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#f73164"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart6"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_3.png" alt="Image description"><span class="font-success">Total Client</span></li>
+                                  <li>
+                                    <h4 class="counter">1568</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +96%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-c" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#46d15e"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart7"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="media">
+                              <div class="media-body">
+                                <ul class="widget-card">
+                                  <li><img class="img-fluid me-2" src="/admin/images/dashboard-2/p_4.png" alt="Image description"><span class="font-warning">Total Product</span></li>
+                                  <li>
+                                    <h4 class="counter">850</h4>
+                                  </li>
+                                  <li class="star-main">
+                                    <p>Balanace +79%</p>
+                                    <ul class="rating-cionlist">
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                      <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <svg viewbox="0 0 0 0" style="height:0; width: 0;">
+                                <defs>
+                                  <lineargradient id="gradient-d" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#ff781e"></stop>
+                                    <stop offset="100%" stop-color="transparent"></stop>
+                                  </lineargradient>
+                                </defs>
+                              </svg>
+                              <div class="chartist-main-sec">
+                                <div class="ct-chart8"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-7 box-col-12 des-xl-100">
+                <div class="card top-sell-sec">
+                  <div class="card-header pb-0">
+                    <h5>Top Selling Product</h5>
+                    <div class="card-header-right">
+                      <ul class="setting-option">
+                        <li>
+                          <div class="setting-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                        </li>
+                        <li><i class="view-html fa fa-code font-primary"></i></li>
+                        <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                        <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                        <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                        <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="top-sell-table">
+                      <div class="item">
+                        <div class="table-responsive product-list">
+                          <table class="table table-bordernone">
+                            <thead>
+                              <tr>
+                                <th>Name</th>
+                                <th>Date</th>
+                                <th>Quantity</th>
+                                <th>% of sale</th>
+                                <th>Total Revenue</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td> <span>01</span>
+                                  <div class="t-title"><a href="user-profile.html"><img class="img-40 m-r-15 rounded-circle align-top" src="/admin/images/dashboard-2/i_1.png" alt="" data-original-title="" title=""></a>
+                                    <div class="d-inline-block align-middle"><span>Yellow New Nike Shoes</span></div>
+                                  </div>
+                                </td>
+                                <td>16 August</td>
+                                <td>54146</td>
+                                <td> <i class="fa fa-arrow-up font-primary me-1"></i>65.00%</td>
+                                <td>$210326</td>
+                                <td>Done</td>
+                              </tr>
+                              <tr>
+                                <td> <span>02</span>
+                                  <div class="t-title"><a href="user-profile.html"><img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_2.png" alt="" data-original-title="" title=""></a>
+                                    <div class="d-inline-block align-middle"><span>Sony Brand New Headphon</span></div>
+                                  </div>
+                                </td>
+                                <td>02 Octomber</td>
+                                <td>32015</td>
+                                <td> <i class="fa fa-arrow-up font-primary me-1"></i>95.00%</td>
+                                <td>$548564</td>
+                                <td>Done</td>
+                              </tr>
+                              <tr>
+                                <td> <span>04</span>
+                                  <div class="t-title"><a href="user-profile.html"><img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_3.png" alt="" data-original-title="" title=""></a>
+                                    <div class="d-inline-block align-middle"><span>Beautiful Golden Tree Plant</span></div>
+                                  </div>
+                                </td>
+                                <td>12 March</td>
+                                <td>95486</td>
+                                <td><i class="fa fa-arrow-down font-secondary me-1"></i>02.00%</td>
+                                <td>$884596</td>
+                                <td>Done</td>
+                              </tr>
+                              <tr>
+                                <td> <span>05</span>
+                                  <div class="t-title"><a href="user-profile.html"><img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_4.png" alt="" data-original-title="" title=""></a>
+                                    <div class="d-inline-block align-middle"><span>Marco M Kely Handbags</span></div>
+                                  </div>
+                                </td>
+                                <td>31 December</td>
+                                <td>15495</td>
+                                <td><i class="fa fa-arrow-up font-primary me-1"></i>43.00%</td>
+                                <td>$441523</td>
+                                <td>Done</td>
+                              </tr>
+                              <tr>
+                                <td> <span>06</span>
+                                  <div class="t-title"><a href="user-profile.html"><img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_5.png" alt="" data-original-title="" title=""></a>
+                                    <div class="d-inline-block align-middle"><span>Being Human Branded T-shirt</span></div>
+                                  </div>
+                                </td>
+                                <td>26 January</td>
+                                <td>66251</td>
+                                <td><i class="fa fa-arrow-up font-primary me-1"></i>88.00%</td>
+                                <td>$112103</td>
+                                <td>Done</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center"><a class="f-w-700 btn-more" href="javascript:void(0)">More...</a></div>
+                    <div class="code-box-copy">
+                      <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#selling-product" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                      <pre>                                          <code class="language-html" id="selling-product">&lt;div class="card top-sell-sec"&gt;
+   &lt;div class="card-header pb-0"&gt;
+     &lt;h5&gt;Top Selling Product&lt;/h5&gt;
+     &lt;div class="card-header-right"&gt;
+       &lt;ul class="setting-option"&gt;
+         &lt;li&gt;
+           &lt;div class="setting-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+           &lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+           &lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+           &lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+           &lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+           &lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;
+         &lt;/li&gt;
+       &lt;/ul&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="card-body"&gt;
+     &lt;div class="top-sell-table"&gt;
+       &lt;div class="item"&gt;
+         &lt;div class="table-responsive product-list"&gt;
+         &lt;table class="table table-bordernone"&gt;
+           &lt;thead&gt;
+             &lt;tr&gt;
+               &lt;th&gt;Name&lt;/th&gt;
+               &lt;th&gt;Date&lt;/th&gt;
+               &lt;th&gt;Quantity&lt;/th&gt;
+               &lt;th&gt;% of sale&lt;/th&gt;
+               &lt;th&gt;Total Revenue&lt;/th&gt;
+             &lt;/tr&gt;
+           &lt;/thead&gt;
+           &lt;tbody&gt;
+             &lt;tr&gt;
+               &lt;td&gt; 
+                 &lt;span&gt;01&lt;/span&gt;
+                 &lt;div class="t-title"&gt;
+                   &lt;a href="user-profile.html"&gt;
+                     &lt;img class="img-40 m-r-15 rounded-circle align-top" src="/admin/images/dashboard-2/i_1.png" alt="" data-original-title="" title=""/&gt;
+                   &lt;/a&gt;
+                   &lt;div class="d-inline-block align-middle"&gt;
+                     &lt;span&gt;Yellow New Nike Shoes&lt;/span&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+               &lt;/td&gt;
+               &lt;td&gt;16 August&lt;/td&gt;
+               &lt;td&gt;54146&lt;/td&gt;
+               &lt;td&gt; &lt;i class="fa fa-arrow-up font-primary me-1"&gt;&lt;/i&gt;65.00%&lt;/td&gt;
+               &lt;td&gt;$210326&lt;/td&gt;
+               &lt;td&gt;Done&lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+               &lt;td&gt; 
+                 &lt;span&gt;02&lt;/span&gt;
+                 &lt;div class="t-title"&gt;
+                   &lt;a href="user-profile.html"&gt;
+                     &lt;img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_2.png" alt="" data-original-title="" title=""/&gt;
+                   &lt;/a&gt;
+                   &lt;div class="d-inline-block align-middle"&gt;
+                     &lt;span&gt;Sony Brand New Headphon&lt;/span&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+               &lt;/td&gt;
+               &lt;td&gt;02 Octomber&lt;/td&gt;
+               &lt;td&gt;32015&lt;/td&gt;
+               &lt;td&gt; &lt;i class="fa fa-arrow-up font-primary me-1"&gt;&lt;/i&gt;95.00%&lt;/td&gt;
+               &lt;td&gt;$548564&lt;/td&gt;
+               &lt;td&gt;Done&lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+               &lt;td&gt;
+                 &lt;span&gt;04&lt;/span&gt;
+                 &lt;div class="t-title"&gt;
+                   &lt;a href="user-profile.html"&gt;
+                     &lt;img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_3.png" alt="" data-original-title="" title=""/&gt;
+                   &lt;/a&gt;
+                   &lt;div class="d-inline-block align-middle"&gt;
+                     &lt;span&gt;Beautiful Golden Tree Plant&lt;/span&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+               &lt;/td&gt;
+               &lt;td&gt;12 March&lt;/td&gt;
+               &lt;td&gt;95486&lt;/td&gt;
+               &lt;td&gt;&lt;i class="fa fa-arrow-down font-secondary me-1"&gt;&lt;/i&gt;02.00%&lt;/td&gt;
+               &lt;td&gt;$884596&lt;/td&gt;
+               &lt;td&gt;Done&lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+               &lt;td&gt; 
+                 &lt;span&gt;05&lt;/span&gt;
+                 &lt;div class="t-title"&gt;
+                     &lt;a href="user-profile.html"&gt;
+                       &lt;img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_4.png" alt="" data-original-title="" title=""/&gt;
+                     &lt;/a&gt;
+                     &lt;div class="d-inline-block align-middle"&gt;
+                       &lt;span&gt;Marco M Kely Handbags&lt;/span&gt;
+                     &lt;/div&gt;
+                 &lt;/div&gt;
+               &lt;/td&gt;
+               &lt;td&gt;31 December&lt;/td&gt;
+               &lt;td&gt;15495&lt;/td&gt;
+               &lt;td&gt;&lt;i class="fa fa-arrow-up font-primary me-1"&gt;&lt;/i&gt;43.00%&lt;/td&gt;
+               &lt;td&gt;$441523&lt;/td&gt;
+               &lt;td&gt;Done&lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+               &lt;td&gt; 
+                 &lt;span&gt;06&lt;/span&gt;
+                 &lt;div class="t-title"&gt;
+                   &lt;a href="user-profile.html"&gt;
+                     &lt;img class="img-40 rounded-circle align-top" src="/admin/images/dashboard-2/i_5.png" alt="" data-original-title="" title=""/&gt;
+                   &lt;/a&gt;
+                   &lt;div class="d-inline-block align-middle"&gt;
+                     &lt;span&gt;Being Human Branded T-shirt&lt;/span&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+               &lt;/td&gt;
+               &lt;td&gt;26 January&lt;/td&gt;
+               &lt;td&gt;66251&lt;/td&gt;
+               &lt;td&gt;&lt;i class="fa fa-arrow-up font-primary me-1"&gt;&lt;/i&gt;88.00%&lt;/td&gt;
+               &lt;td&gt;$112103&lt;/td&gt;
+               &lt;td&gt;Done&lt;/td&gt;
+             &lt;/tr&gt;
+           &lt;/tbody&gt;
+         &lt;/table&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="text-center"&gt;&lt;a class="f-w-700 btn-more" href="javascript:void(0)"&gt;More...&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-5 box-col-12 des-xl-100">
+                <div class="row">
+                  <div class="col-xl-12 col-sm-6 des-xl-50 box-col-6 des-sm-100">
+                    <div class="card service-contact-sec">
+                      <div class="card-header pb-0">
+                        <h5>Services Contact</h5>
+                        <div class="card-header-right">
+                          <ul class="setting-option">
+                            <li>
+                              <div class="setting-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                            </li>
+                            <li><i class="view-html fa fa-code font-primary"></i></li>
+                            <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                            <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                            <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                            <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="table-responsive groups-table service-contact-table">
+                          <table class="table table-bordernone">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="d-inline-block align-middle">
+                                    <div class="t-title"><a href="user-profile.html"><img class="img-radius img-40 align-top m-r-15 rounded-circle" src="/admin/images/dashboard-2/s_1.png" alt="" data-original-title="" title=""></a>
+                                      <div class="d-inline-block"><span>+1(056)5685 5684</span>
+                                        <p class="d-block">Marshel Medroled</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <p>Available Now</p>
+                                </td>
+                                <td>
+                                  <div class="gradient-round"><i class="fa fa-phone"></i></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="d-inline-block align-middle">
+                                    <div class="t-title"><a href="user-profile.html"><img class="img-radius img-40 align-top m-r-15 rounded-circle" src="/admin/images/dashboard-2/s_2.png" alt="" data-original-title="" title=""></a>
+                                      <div class="d-inline-block"><span>+1(253) 3017 9801</span>
+                                        <p class="d-block">Eliyana Geloren</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <p>Available Now</p>
+                                </td>
+                                <td>
+                                  <div class="gradient-round"><i class="fa fa-phone"></i></div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="code-box-copy">
+                          <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#services-contact" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                          <pre><code class="language-html" id="services-contact">&lt;div class="card service-contact-sec"&gt;
+ &lt;div class="card-header pb-0"&gt;
+   &lt;h5&gt;Services Contact&lt;/h5&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body"&gt;
+   &lt;div class="table-responsive groups-table service-contact-table"&gt;
+   &lt;table class="table table-bordernone"&gt;
+     &lt;tbody&gt;
+       &lt;tr&gt;
+         &lt;td&gt;
+           &lt;div class="d-inline-block align-middle"&gt;
+             &lt;div class="t-title"&gt;
+               &lt;a href="user-profile.html"&gt;
+                 &lt;img class="img-radius img-40 align-top m-r-15 rounded-circle" src="/admin/images/dashboard-2/s_1.png" alt="" data-original-title="" title=""/&gt;
+               &lt;/a&gt;
+             &lt;div class="d-inline-block"&gt;
+               &lt;span&gt;+1(056)5685 5684&lt;/span&gt;
+               &lt;p class="d-block"&gt;Marshel Medroled&lt;/p&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+       &lt;/td&gt;
+       &lt;td&gt;
+         &lt;p&gt;Available Now&lt;/p&gt;
+       &lt;/td&gt;
+       &lt;td&gt;
+         &lt;div class="gradient-round"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+       &lt;td&gt;
+         &lt;div class="d-inline-block align-middle"&gt;
+           &lt;div class="t-title"&gt;
+             &lt;a href="user-profile.html"&gt;
+               &lt;img class="img-radius img-40 align-top m-r-15 rounded-circle" src="/admin/images/dashboard-2/s_2.png" alt="" data-original-title="" title=""/&gt;
+             &lt;/a&gt;
+             &lt;div class="d-inline-block"&gt;
+               &lt;span&gt;+1(253) 3017 9801&lt;/span&gt;
+               &lt;p class="d-block"&gt;Eliyana Geloren&lt;/p&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+       &lt;/td&gt;
+       &lt;td&gt;
+         &lt;p&gt;Available Now&lt;/p&gt;
+       &lt;/td&gt;
+       &lt;td&gt;
+        &lt;div class="gradient-round"&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;/tbody&gt;
+   &lt;/table&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-12 col-sm-6 des-xl-50 box-col-6 des-sm-100">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5>Connect With Us</h5>
+                        <div class="card-header-right">
+                          <ul class="setting-option">
+                            <li>
+                              <div class="setting-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                            </li>
+                            <li><i class="view-html fa fa-code font-primary"></i></li>
+                            <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                            <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                            <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                            <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-body p-t-0">
+                        <div class="connect-sec">
+                          <table>
+                            <tr>
+                              <td>
+                                <div class="facebook-sec"><img class="img-40" src="/admin/images/dashboard-2/facebook.png" alt="" title="">
+                                  <div class="name-user"><span>Facebook</span>
+                                    <p>680k</p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="google-sec"><img class="img-40" src="/admin/images/dashboard-2/googleplus.png" alt="" title="">
+                                  <div class="name-user"><span>Google</span>
+                                    <p>546k</p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="twitter-sec"><img class="img-40" src="/admin/images/dashboard-2/twitter.png" alt="" title="">
+                                  <div class="name-user"><span>Twitter</span>
+                                    <p>856k</p>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="code-box-copy">
+                          <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#contact-us" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                          <pre><code class="language-html" id="contact-us">&lt;div class="card"&gt;
+ &lt;div class="card-header"&gt;
+   &lt;h5&gt;Connect With Us&lt;/h5&gt;
+ &lt;div class="card-header-right"&gt;
+   &lt;ul class="setting-option"&gt;
+     &lt;li&gt;
+       &lt;div class="setting-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;
+     &lt;/li&gt;
+     &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+   &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body p-t-0"&gt;
+   &lt;div class="connect-sec"&gt;
+     &lt;table&gt;
+       &lt;tr&gt;
+         &lt;td&gt;
+             &lt;div class="facebook-sec"&gt;
+               &lt;img class="img-40" src="/admin/images/dashboard-2/facebook.png" alt="" title=""/&gt;
+               &lt;div class="name-user"&gt;&lt;span&gt;Facebook&lt;/span&gt;
+               &lt;p&gt;680k&lt;/p&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+         &lt;/td&gt;
+         &lt;td&gt;
+           &lt;div class="google-sec"&gt;
+             &lt;img class="img-40" src="/admin/images/dashboard-2/googleplus.png" alt="" title=""/&gt;
+             &lt;div class="name-user"&gt;&lt;span&gt;Google&lt;/span&gt;
+             &lt;p&gt;546k&lt;/p&gt;
+           &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/td&gt;
+         &lt;td&gt;
+           &lt;div class="twitter-sec"&gt;
+             &lt;img class="img-40" src="/admin/images/dashboard-2/twitter.png" alt="" title=""/&gt;
+             &lt;div class="name-user"&gt;
+               &lt;span&gt;Twitter&lt;/span&gt;
+               &lt;p&gt;856k&lt;/p&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/td&gt;
+       &lt;/tr&gt;
+     &lt;/table&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-7 box-col-12 des-xl-100">
+                <div class="row">
+                  <div class="col-sm-4 des-sm-100">
+                    <div class="card meeting-sec">
+                      <div class="card-header">
+                        <div class="card-header-right">
+                          <ul class="setting-option">
+                            <li>
+                              <div class="setting-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                            </li>
+                            <li><i class="view-html fa fa-code font-primary"></i></li>
+                            <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                            <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                            <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                            <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-body p-t-0">
+                        <div class="redial-block">
+                          <div class="redial-chart">
+                            <div id="chart-update-1"></div>
+                          </div>
+                          <div class="meeting-details text-center">
+                            <h4>652594</h4>
+                            <p>Number of Meetings</p>
+                            <div class="meeting-rate primary-rate"><span class="font-primary">2.00%</span>
+                              <p>(30 days)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code-box-copy">
+                          <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#number-meeting" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                          <pre><code class="language-html" id="number-meeting"> &lt;div class="card meeting-sec"&gt;
+ &lt;div class="card-header"&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body p-t-0"&gt;
+   &lt;div class="redial-block"&gt;
+     &lt;div class="redial-chart"&gt;
+       &lt;div id="chart-update-1"&gt;&lt;/div&gt;
+     &lt;/div&gt;
+       &lt;div class="meeting-details text-center"&gt;
+         &lt;h4&gt;652594&lt;/h4&gt;
+         &lt;p&gt;Number of Meetings&lt;/p&gt;
+         &lt;div class="meeting-rate primary-rate"&gt;
+          &lt;span class="font-primary"&gt;2.00%&lt;/span&gt;
+           &lt;p&gt;(30 days)&lt;/p&gt;
+         &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 des-sm-100">
+                    <div class="card">
+                      <div class="card-header">
+                        <div class="card-header-right">
+                          <ul class="setting-option">
+                            <li>
+                              <div class="setting-badge secondary-badge"><i class="fa fa-spin fa-cog font-secondary"></i></div>
+                            </li>
+                            <li><i class="view-html fa fa-code font-secondary"></i></li>
+                            <li><i class="icofont icofont-maximize full-card font-secondary"></i></li>
+                            <li><i class="icofont icofont-minus minimize-card font-secondary"></i></li>
+                            <li><i class="icofont icofont-refresh reload-card font-secondary"></i></li>
+                            <li><i class="icofont icofont-error close-card font-secondary"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-body p-t-0">
+                        <div class="redial-block">
+                          <div class="redial-chart">
+                            <div id="chart-update-2"></div>
+                          </div>
+                          <div class="meeting-details text-center">
+                            <h4>88456</h4>
+                            <p>Number of Follower</p>
+                            <div class="meeting-rate secondary-rate"><span class="font-secondary">96.00%</span>
+                              <p>(30 days)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code-box-copy">
+                          <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#number-follow" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                          <pre><code class="language-html" id="number-follow">&lt;div class="card meeting-sec"&gt;
+ &lt;div class="card-header"&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge secondary-badge"&gt;&lt;i class="fa fa-spin fa-cog font-secondary"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body p-t-0"&gt;
+   &lt;div class="redial-block"&gt;
+     &lt;div class="redial-chart"&gt;
+       &lt;div id="chart-update-2"&gt;&lt;/div&gt;
+     &lt;/div&gt;
+       &lt;div class="meeting-details text-center"&gt;
+         &lt;h4&gt;88456&lt;/h4&gt;
+         &lt;p&gt;Number of Follower&lt;/p&gt;
+         &lt;div class="meeting-rate primary-secondary"&gt;
+          &lt;span class="font-secondary"&gt;96.00%&lt;/span&gt;
+           &lt;p&gt;(30 days)&lt;/p&gt;
+         &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+&lt;/div&gt;                                </code></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 des-sm-100">
+                    <div class="card">         
+                      <div class="card-header">
+                        <div class="card-header-right">
+                          <ul class="setting-option">
+                            <li>
+                              <div class="setting-badge success-badge"><i class="fa fa-spin fa-cog font-success"></i></div>
+                            </li>
+                            <li><i class="view-html fa fa-code font-success"></i></li>
+                            <li><i class="icofont icofont-maximize full-card font-success"></i></li>
+                            <li><i class="icofont icofont-minus minimize-card font-success"></i></li>
+                            <li><i class="icofont icofont-refresh reload-card font-success"></i></li>
+                            <li><i class="icofont icofont-error close-card font-success">                                 </i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-body p-t-0">
+                        <div class="redial-block">
+                          <div class="redial-chart">
+                            <div id="chart-update"></div>
+                          </div>
+                          <div class="meeting-details text-center">
+                            <h4>955456</h4>
+                            <p>Number of Order</p>
+                            <div class="meeting-rate success-rate"><span class="font-success">84.00%</span>
+                              <p>(30 days)</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code-box-copy">
+                          <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#number-order" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                          <pre><code class="language-html" id="number-order">&lt;div class="card"&gt;
+   &lt;div class="card-header"&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge success-badge"&gt;&lt;i class="fa fa-spin fa-cog font-success"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-success"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-success"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-success"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-success"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-success"&gt; &lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body p-t-0"&gt;
+   &lt;div class="redial-block"&gt;
+   &lt;div class="redial-chart"&gt;
+     &lt;div id="chart-update"&gt;&lt;/div&gt;
+   &lt;/div&gt;
+ &lt;div class="meeting-details text-center"&gt;
+   &lt;h4&gt;955456&lt;/h4&gt;
+   &lt;p&gt;Number of Order&lt;/p&gt;
+   &lt;div class="meeting-rate success-rate"&gt;
+     &lt;span class="font-success"&gt;84.00%&lt;/span&gt;
+     &lt;p&gt;(30 days)&lt;/p&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-5 col-sm-6 box-col-12 des-xl-50 des-sm-100">
+                <div class="card business-growth-sec">
+                  <div class="card-header pb-0 justify-content-between">
+                    <h5>Business Growth</h5>
+                    <div class="center-content">
+                      <p>Total Growth</p><span class="ms-3">$665000</span>
+                    </div>
+                    <div class="card-header-right">
+                      <ul class="setting-option">
+                        <li>
+                          <div class="setting-badge primary-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                        </li>
+                        <li><i class="view-html fa fa-code font-primary"></i></li>
+                        <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                        <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                        <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                        <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-body p-0">
+                    <div id="business-chart"></div>
+                    <div class="code-box-copy">
+                      <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#business-growth" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                      <pre><code class="language-html" id="business-growth">&lt;div class="card business-growth-sec"&gt;
+ &lt;div class="card-header pb-0 justify-content-between"&gt;
+   &lt;h5&gt;Business Growth&lt;/h5&gt;
+   &lt;div class="center-content"&gt;
+     &lt;p&gt;Total Growth&lt;/p&gt;
+     &lt;span class="ms-3"&gt;$665000&lt;/span&gt;
+   &lt;/div&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;&lt;div class="setting-badge primary-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="card-body p-0"&gt;
+     &lt;div id="business-chart"&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6 box-col-12 des-xl-50 des-sm-100">
+                <div class="card our-activity-table">
+                  <div class="card-header">
+                    <h5>Our Activities</h5>
+                    <div class="card-header-right">
+                      <ul class="setting-option">
+                        <li>
+                          <div class="setting-badge primary-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                        </li>
+                        <li><i class="view-html fa fa-code font-primary"></i></li>
+                        <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                        <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                        <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                        <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-body p-t-0">
+                    <div class="table-responsive groups-table">
+                      <table class="table table-bordernone">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="media">
+                                <div class="round-light icon-secondary"><i class="fa fa-star"></i></div>
+                                <div class="media-body"><span>Win best seller of the year award</span>
+                                  <p class="d-block">Company,San Francisco</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p>34 min ago</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="media">
+                                <div class="round-light icon-primary"><i class="fa fa-check-circle"></i></div>
+                                <div class="media-body"><span>Approved our product in checking</span>
+                                  <p class="d-block">Elisse Joson,San Francisco</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p>1 hour ago</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="media">
+                                <div class="round-light icon-success"><i class="fa fa-bookmark"></i></div>
+                                <div class="media-body"><span>Win best seller of the year award</span>
+                                  <p class="d-block">Company,San Francisco</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p>34 min ago</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="media">
+                                <div class="round-light icon-warning"><i class="fa fa-shopping-basket"></i></div>
+                                <div class="media-body"><span>Approved our product in checking</span>
+                                  <p class="d-block">Elisse Joson,San Francisco</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p>1 hour ago</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="media">
+                                <div class="round-light icon-primary"><i class="fa fa-microchip"></i></div>
+                                <div class="media-body"><span>Win best seller of the year award</span>
+                                  <p class="d-block">Company,San Francisco</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p>34 min ago</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="text-center"><a class="f-w-700 btn-more" href="javascript:void(0)">More...</a></div>
+                    <div class="code-box-copy">
+                      <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#our-activiti" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                      <pre><code class="language-html" id="our-activiti">&lt;div class="card our-activity-table"&gt;
+ &lt;div class="card-header"&gt;
+   &lt;h5&gt;Our Activities&lt;/h5&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge primary-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body p-t-0"&gt;
+   &lt;div class="table-responsive groups-table"&gt;
+     &lt;table class="table table-bordernone"&gt;
+       &lt;tbody&gt;
+         &lt;tr&gt;
+           &lt;td&gt;
+             &lt;div class="media"&gt;
+               &lt;div class="round-light icon-secondary"&gt;
+                 &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+               &lt;/div&gt;
+               &lt;div class="media-body"&gt;
+                 &lt;span&gt;Win best seller of the year award&lt;/span&gt;
+                 &lt;p class="d-block"&gt;Company,San Francisco&lt;/p&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+             &lt;p&gt;34 min ago&lt;/p&gt;
+           &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+           &lt;td&gt;
+             &lt;div class="media"&gt;
+               &lt;div class="round-light icon-primary"&gt;&lt;i class="fa fa-check-circle"&gt;&lt;/i&gt;
+             &lt;/div&gt;
+             &lt;div class="media-body"&gt;
+               &lt;span&gt;Approved our product in checking&lt;/span&gt;
+               &lt;p class="d-block"&gt;Elisse Joson,San Francisco&lt;/p&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+             &lt;p&gt;1 hour ago&lt;/p&gt;
+           &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+           &lt;td&gt;
+             &lt;div class="media"&gt;
+               &lt;div class="round-light icon-success"&gt;
+                 &lt;i class="fa fa-bookmark"&gt;&lt;/i&gt;&lt;/div&gt;
+               &lt;div class="media-body"&gt;
+                 &lt;span&gt;Win best seller of the year award&lt;/span&gt;
+                 &lt;p class="d-block"&gt;Company,San Francisco&lt;/p&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+             &lt;p&gt;34 min ago&lt;/p&gt;
+           &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+           &lt;td&gt;
+             &lt;div class="media"&gt;
+               &lt;div class="round-light icon-warning"&gt;
+                 &lt;i class="fa fa-shopping-basket"&gt;&lt;/i&gt;
+               &lt;/div&gt;
+               &lt;div class="media-body"&gt;
+                 &lt;span&gt;Approved our product in checking&lt;/span&gt;
+                 &lt;p class="d-block"&gt;Elisse Joson,San Francisco&lt;/p&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+             &lt;p&gt;1 hour ago&lt;/p&gt;
+           &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+           &lt;td&gt;
+             &lt;div class="media"&gt;
+               &lt;div class="round-light icon-primary"&gt;
+                 &lt;i class="fa fa-microchip"&gt;&lt;/i&gt;
+               &lt;/div&gt;
+               &lt;div class="media-body"&gt;
+                 &lt;span&gt;Win best seller of the year award&lt;/span&gt;
+                 &lt;p class="d-block"&gt;Company,San Francisco&lt;/p&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+             &lt;p&gt;34 min ago&lt;/p&gt;
+           &lt;/td&gt;
+         &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;div class="text-center"&gt;
+  &lt;a class="f-w-700 btn-more" href="javascript:void(0)"&gt;More...&lt;/a&gt;
+&lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-12 col-md-6 box-col-6 des-xl-50">
+                <div class="card new-product-section">
+                  <div class="card-header justify-content-between">
+                    <h5>New Product</h5>
+                    <div class="center-content">
+                      <p>Sold Product</p><span class="m-l-10">84562</span>
+                    </div>
+                    <div class="card-header-right">
+                      <ul class="setting-option">
+                        <li>
+                          <div class="setting-badge primary-badge"><i class="fa fa-spin fa-cog font-primary"></i></div>
+                        </li>
+                        <li><i class="view-html fa fa-code font-primary"></i></li>
+                        <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                        <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                        <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                        <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-body p-t-0">
+                    <div class="new-product-main">
+                      <div class="slider single-item">
+                        <div>
+                          <div class="row pro-block">
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end">                                    <i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div> 
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-1.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Mix3</span></a>
+                                      <p>USD 115.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-1.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Mix3</span></a>
+                                      <p>USD 115.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-2.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Speaker</span></a>
+                                      <p>USD 94.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-2.png" alt="First slide">
+                                    <div class="carousel-content"> <a href="user-profile.html"> <span>Xiaomi Speaker</span></a>
+                                      <p>USD 94.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"> <img src="/admin/images/dashboard-2/product-3.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Mouse</span></a>
+                                      <p>USD 30.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-3.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Mouse</span></a>
+                                      <p>USD 30.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"> <img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Earbuds</span></a>
+                                      <p>USD 102.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Earbuds</span></a>
+                                      <p>USD 102.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row pro-block">
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-1.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Mix3</span></a>
+                                      <p>USD 115.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-1.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Mix3</span></a>
+                                      <p>USD 115.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"> <img src="/admin/images/dashboard-2/product-2.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> </a><span>Xiaomi Speaker</span>
+                                      <p>USD 94.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-2.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Speaker</span></a>
+                                      <p>USD 94.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-3.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Mouse</span></a>
+                                      <p>USD 30.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-3.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Mouse</span></a>
+                                      <p>USD 30.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Earbuds</span></a>
+                                      <p>USD 102.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Earbuds</span></a>
+                                      <p>USD 102.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row pro-block">
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-1.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Mix3</span></a>
+                                      <p>USD 115.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Mix3</span></a>
+                                      <p>USD 115.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-2.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Speaker</span></a>
+                                      <p>USD 94.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-2.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Xiaomi Speaker</span></a>
+                                      <p>USD 94.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-3.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Mouse</span></a>
+                                      <p>USD 30.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-3.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Mouse</span></a>
+                                      <p>USD 30.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="slid-wrapper">
+                                <div class="plus-circle float-end"><i class="icon-plus"></i></div>
+                              </div>
+                              <div class="slider single-item-small">
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span>Wireless Earbuds</span></a>
+                                      <p>USD 102.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="product-box"><img src="/admin/images/dashboard-2/product-4.png" alt="First slide">
+                                    <div class="carousel-content"><a href="user-profile.html"> <span> Wireless Earbuds</span></a>
+                                      <p>USD 102.00</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="code-box-copy">
+                      <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#new-pro" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                      <pre><code class="language-html" id="new-pro">&lt;div class="card new-product-section"&gt;
+ &lt;div class="card-header justify-content-between"&gt;
+   &lt;h5&gt;New Product&lt;/h5&gt;
+   &lt;div class="center-content"&gt;
+     &lt;p&gt;Sold Product&lt;/p&gt;&lt;span class="m-l-10"&gt;84562&lt;/span&gt;
+   &lt;/div&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge primary-badge"&gt;&lt;i class="fa fa-spin fa-cog font-primary"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card font-primary"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="card-body p-t-0"&gt;
+   &lt;div class="new-product-main"&gt;
+     &lt;div class="slider single-item"&gt;
+       &lt;div&gt;
+         &lt;div class="row pro-block"&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-1.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Mix3&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 115.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-1.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Mix3&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 115.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-2.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Speaker&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 94.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-2.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Speaker&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 94.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-3.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Mouse&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 30.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-3.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Mouse&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 30.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-4.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Earbuds&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 102.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-4.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Earbuds&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 102.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+       &lt;/div&gt;
+       &lt;div&gt;
+         &lt;div class="row pro-block"&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-1.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Mix3&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 115.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-1.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Mix3&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 115.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-2.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Speaker&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 94.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-2.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Speaker&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 94.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-3.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Mouse&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 30.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-3.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Mouse&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 30.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-4.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Earbuds&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 102.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-4.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Earbuds&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 102.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+       &lt;/div&gt;
+       &lt;div&gt;
+         &lt;div class="row pro-block"&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-1.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Mix3&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 115.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-1.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Mix3&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 115.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-2.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Speaker&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 94.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-2.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Xiaomi Speaker&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 94.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-3.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Mouse&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 30.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-3.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Mouse&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 30.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;div class="col-sm-6"&gt;
+             &lt;div class="slid-wrapper"&gt;
+               &lt;div class="plus-circle float-end"&gt; &lt;i class="icon-plus"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="slider single-item-small"&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-4.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Earbuds&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 102.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+                 &lt;div&gt;
+                   &lt;div class="product-box"&gt;
+                     &lt;img src="/admin/images/dashboard-2/product-4.png" alt="First slide"/&gt;
+                     &lt;div class="carousel-content"&gt;
+                       &lt;a href="user-profile.html"&gt; 
+                         &lt;span&gt;Wireless Earbuds&lt;/span&gt;
+                       &lt;/a&gt;
+                       &lt;p&gt;USD 102.00&lt;/p&gt;
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 &lt;/div&gt;
+             &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+       &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-12 col-md-6 box-col-6 des-xl-50">
+                <div class="card o-hidden payment-sec-main">
+                  <div class="card-header">
+                    <h5 class="font-light">Payment</h5>
+                    <div class="card-header-right">
+                      <ul class="setting-option bg-transparent">
+                        <li>
+                          <div class="setting-badge light-badge"><i class="fa fa-spin fa-cog"></i></div>
+                        </li>
+                        <li><i class="view-html fa fa-code"></i></li>
+                        <li><i class="icofont icofont-maximize full-card"></i></li>
+                        <li><i class="icofont icofont-minus minimize-card"></i></li>
+                        <li><i class="icofont icofont-refresh reload-card"></i></li>
+                        <li><i class="icofont icofont-error close-card"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-body p-t-0">                  
+                    <div class="payment-main">
+                      <div class="owl-carousel owl-theme" id="sync1">
+                        <div class="item p-0">
+                          <div class="visa-card">
+                            <div class="card-logo"><img class="img-fluid" src="/admin/images/dashboard-2/visa-card/visa.png" alt=""></div>
+                            <ul class="card-number">
+                              <li>****</li>
+                              <li>****</li>
+                              <li>****</li>
+                              <li>8597</li>
+                            </ul>
+                            <h6 class="carl-holder">Johan deo    </h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="valid-thru"> <span>VALID THRU</span><span class="vdate">11/21</span></div><a class="card-btn" href="javascript:void(0)">next <i class="fa fa-arrow-circle-right font-primary"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item p-0">
+                          <div class="visa-card">
+                            <div class="card-logo"><img class="img-fluid" src="/admin/images/dashboard-2/visa-card/master-card.png" alt=""></div>
+                            <ul class="card-number">
+                              <li>****</li>
+                              <li>****</li>
+                              <li>****</li>
+                              <li>8597</li>
+                            </ul>
+                            <h6 class="carl-holder">Johan deo    </h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="valid-thru"> <span>VALID THRU</span><span class="vdate">11/21</span></div><a class="card-btn" href="javascript:void(0)">next <i class="fa fa-arrow-circle-right font-primary"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item p-0">
+                          <div class="visa-card">
+                            <div class="card-logo"><img class="img-fluid" src="/admin/images/dashboard-2/american-ex.png" alt=""></div>
+                            <ul class="card-number">
+                              <li>****</li>
+                              <li>****</li>
+                              <li>****</li>
+                              <li>358</li>
+                            </ul>
+                            <h6 class="carl-holder">Johan deo    </h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="valid-thru"> <span>VALID THRU</span><span class="vdate">9/22</span></div><a class="card-btn" href="javascript:void(0)">next <i class="fa fa-arrow-circle-right font-primary">                      </i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <h1>4</h1>
+                        </div>
+                      </div>
+                      <h5 class="font-light">Active Card</h5>
+                      <div class="owl-carousel owl-theme" id="sync2">
+                        <div class="item"><img src="/admin/images/dashboard-2/visa.png" alt="" data-original-title="" title="">
+                          <div class="check-circle"><i class="fa fa-check"></i></div>
+                        </div>
+                        <div class="item"><img src="/admin/images/dashboard-2/card.png" alt="" data-original-title="" title="">
+                          <div class="check-circle"><i class="fa fa-check"></i></div>
+                        </div>
+                        <div class="item"><img src="/admin/images/dashboard-2/american-ex.png" alt="" data-original-title="" title="">
+                          <div class="check-circle"><i class="fa fa-check"></i></div>
+                        </div>
+                        <div class="item"><img src="/admin/images/dashboard-2/card-last.png" alt="" data-original-title="" title="">
+                          <div class="check-circle"><i class="fa fa-check"></i></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="code-box-copy">
+                      <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#payment-sec" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                      <pre><code class="language-html" id="payment-sec">&lt;div class="card o-hidden payment-sec-main"&gt;
+ &lt;div class="card-header"&gt;
+   &lt;h5 class="font-light"&gt;Payment&lt;/h5&gt;
+   &lt;div class="card-header-right"&gt;
+     &lt;ul class="setting-option bg-transparent"&gt;
+       &lt;li&gt;
+         &lt;div class="setting-badge light-badge"&gt;&lt;i class="fa fa-spin fa-cog"&gt;&lt;/i&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;i class="view-html fa fa-code"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-maximize full-card"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;i class="icofont icofont-error close-card"&gt;&lt;/i&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="card-body p-t-0"&gt; 
+   &lt;div class="payment-main"&gt;
+     &lt;div class="owl-carousel owl-theme" id="sync1"&gt;
+       &lt;div class="item p-0"&gt;
+         &lt;div class="visa-card"&gt;
+           &lt;div class="card-logo"&gt;
+             &lt;img class="img-fluid" src="/admin/images/dashboard-2/visa-card/visa.png" alt=""/&gt;
+           &lt;/div&gt;
+           &lt;ul class="card-number"&gt;
+             &lt;li&gt;****&lt;/li&gt;
+             &lt;li&gt;****&lt;/li&gt;
+             &lt;li&gt;****&lt;/li&gt;
+             &lt;li&gt;8597&lt;/li&gt;
+           &lt;/ul&gt;
+           &lt;h6 class="carl-holder"&gt;Johan deo &lt;/h6&gt;
+           &lt;div class="d-flex justify-content-between align-items-center"&gt;
+             &lt;div class="valid-thru"&gt; 
+               &lt;span&gt;VALID THRU&lt;/span&gt;
+               &lt;span class="vdate"&gt;11/21&lt;/span&gt;
+             &lt;/div&gt;
+             &lt;a class="card-btn" href="javascript:void(0)"&gt;next &lt;i class="fa fa-arrow-circle-right font-primary"&gt;&lt;/i&gt;&lt;/a&gt;
+           &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;
+         &lt;div class="item p-0"&gt;
+           &lt;div class="visa-card"&gt;
+             &lt;div class="card-logo"&gt;
+               &lt;img class="img-fluid" src="/admin/images/dashboard-2/visa-card/master-card.png" alt=""/&gt;
+             &lt;/div&gt;
+             &lt;ul class="card-number"&gt;
+               &lt;li&gt;****&lt;/li&gt;
+               &lt;li&gt;****&lt;/li&gt;
+               &lt;li&gt;****&lt;/li&gt;
+               &lt;li&gt;8597&lt;/li&gt;
+             &lt;/ul&gt;
+             &lt;h6 class="carl-holder"&gt;Johan deo &lt;/h6&gt;
+             &lt;div class="d-flex justify-content-between align-items-center"&gt;
+               &lt;div class="valid-thru"&gt;
+                  &lt;span&gt;VALID THRU&lt;/span&gt;
+                  &lt;span class="vdate"&gt;11/21&lt;/span&gt;
+               &lt;/div&gt;
+               &lt;a class="card-btn" href="javascript:void(0)"&gt;next &lt;i class="fa fa-arrow-circle-right font-primary"&gt;&lt;/i&gt;&lt;/a&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="item p-0"&gt;
+              &lt;div class="visa-card"&gt;
+              &lt;div class="card-logo"&gt;
+              &lt;img class="img-fluid" src="/admin/images/dashboard-2/american-ex.png" alt=""/&gt;
+             &lt;/div&gt;
+             &lt;ul class="card-number"&gt;
+               &lt;li&gt;****&lt;/li&gt;
+               &lt;li&gt;****&lt;/li&gt;
+               &lt;li&gt;****&lt;/li&gt;
+               &lt;li&gt;358&lt;/li&gt;
+             &lt;/ul&gt;
+             &lt;h6 class="carl-holder"&gt;Johan deo &lt;/h6&gt;
+             &lt;div class="d-flex justify-content-between align-items-center"&gt;
+             &lt;div class="valid-thru"&gt; 
+               &lt;span&gt;VALID THRU&lt;/span&gt;
+               &lt;span class="vdate"&gt;9/22&lt;/span&gt;
+             &lt;/div&gt;
+             &lt;a class="card-btn" href="javascript:void(0)"&gt;next &lt;i class="fa fa-arrow-circle-right font-primary"&gt; &lt;/i&gt;&lt;/a&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="item"&gt;
+               &lt;h1&gt;4&lt;/h1&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;h5 class="font-light"&gt;Active Card&lt;/h5&gt;
+             &lt;div class="owl-carousel owl-theme" id="sync2"&gt;
+             &lt;div class="item"&gt;&lt;img src="/admin/images/dashboard-2/visa.png" alt="" data-original-title="" title=""/&gt;
+             &lt;div class="check-circle"&gt;&lt;i class="fa fa-check"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="item"&gt;&lt;img src="/admin/images/dashboard-2/card.png" alt="" data-original-title="" title=""/&gt;
+             &lt;div class="check-circle"&gt;&lt;i class="fa fa-check"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="item"&gt;&lt;img src="/admin/images/dashboard-2/american-ex.png" alt="" data-original-title="" title=""/&gt;
+             &lt;div class="check-circle"&gt;&lt;i class="fa fa-check"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;div class="item"&gt;&lt;img src="/admin/images/dashboard-2/card-last.png" alt="" data-original-title="" title=""/&gt;
+             &lt;div class="check-circle"&gt;&lt;i class="fa fa-check"&gt;&lt;/i&gt;&lt;/div&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;
+             &lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12 box-col-12">
+                <div class="card pro-market-sec">
+                  <div class="card-header pb-0 justify-content-between">
+                    <h5>Product Market Value</h5>
+                    <div class="center-content">
+                      <div class="center-content-left">
+                        <p>This Month</p><span class="m-l-10">$42866</span>
+                      </div>
+                      <div class="center-content-right">
+                        <p>Last Month</p><span class="m-l-10">$20548</span>
+                      </div>
+                    </div>
+                    <div class="card-header-right">
+                      <ul class="setting-option">
+                        <li>
+                          <div class="setting-badge"><i class="fa fa-spin fa-cog"></i></div>
+                        </li>
+                        <li><i class="view-html fa fa-code"></i></li>
+                        <li><i class="icofont icofont-maximize full-card"></i></li>
+                        <li><i class="icofont icofont-minus minimize-card"></i></li>
+                        <li><i class="icofont icofont-refresh reload-card"></i></li>
+                        <li><i class="icofont icofont-error close-card"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="github-chart">
+                      <div class="flot-chart-placeholder" id="github-issues"></div>
+                    </div>
+                    <div class="code-box-copy">
+                      <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#market-value" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
+                      <pre><code class="language-html" id="market-value">&lt;div class="card pro-market-sec"&gt;
+   &lt;div class="card-header pb-0 justify-content-between"&gt;
+     &lt;h5&gt;Product Market Value&lt;/h5&gt;
+     &lt;div class="center-content"&gt;  
+       &lt;div class="center-content-left"&gt;
+         &lt;p&gt;This Month&lt;/p&gt;
+         &lt;span class="m-l-10"&gt;$42866&lt;/span&gt;
+       &lt;/div&gt;
+       &lt;div class="center-content-right"&gt;
+         &lt;p&gt;Last Month&lt;/p&gt;&lt;span class="m-l-10"&gt;$20548&lt;/span&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div class="card-header-right"&gt;
+       &lt;ul class="setting-option"&gt;
+         &lt;li&gt;&lt;div class="setting-badge"&gt;&lt;i class="fa fa-spin fa-cog"&gt;&lt;/i&gt;&lt;/div&gt;&lt;/li&gt;
+         &lt;li&gt;&lt;i class="view-html fa fa-code"&gt;&lt;/i&gt;&lt;/li&gt;
+         &lt;li&gt;&lt;i class="icofont icofont-maximize full-card"&gt;&lt;/i&gt;&lt;/li&gt;
+         &lt;li&gt;&lt;i class="icofont icofont-minus minimize-card"&gt;&lt;/i&gt;&lt;/li&gt;
+         &lt;li&gt;&lt;i class="icofont icofont-refresh reload-card"&gt;&lt;/i&gt;&lt;/li&gt;
+         &lt;li&gt;&lt;i class="icofont icofont-error close-card"&gt;&lt;/i&gt;&lt;/li&gt;
+       &lt;/ul&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="card-body"&gt;
+    &lt;div class="github-chart"&gt;
+      &lt;div class="flot-chart-placeholder" id="github-issues"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- tap on top starts-->
+        <div class="tap-top"><i class="icon-control-eject"></i></div>
+        <!-- tap on tap ends-->
+        <!-- footer start-->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 footer-copyright">
+                <p class="mb-0">Copyright 2022 © wingo All rights reserved.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="pull-right mb-0">Hand crafted & made with <i class="fa fa-heart font-secondary"></i></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="/admin/js/jquery-3.5.1.min.js"></script>
+    <!-- feather icon js-->
+    <script src="/admin/js/icons/feather-icon/feather.min.js"></script>
+    <script src="/admin/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="/admin/js/sidebar-menu.js"></script>
+    <script src="/admin/js/config.js">   </script>
+    <!-- Bootstrap js-->
+    <script src="/admin/js/bootstrap/popper.min.js"></script>
+    <script src="/admin/js/bootstrap/bootstrap.min.js"></script>
+    <!-- Plugins JS start-->
+    <script src="/admin/js/chart/chartist/chartist.js"></script>
+    <script src="/admin/js/chart/chartist/chartist-plugin-tooltip.js"></script>
+    <script src="/admin/js/chart/morris-chart/raphael.js"></script>
+    <script src="/admin/js/chart/morris-chart/morris.js"> </script>
+    <script src="/admin/js/chart/morris-chart/prettify.min.js"></script>
+    <script src="/admin/js/chart/knob/knob.min.js"></script>
+    <script src="/admin/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="/admin/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="/admin/js/prism/prism.min.js"></script>
+    <script src="/admin/js/clipboard/clipboard.min.js"></script>
+    <script src="/admin/js/counter/jquery.waypoints.min.js"></script>
+    <script src="/admin/js/counter/jquery.counterup.min.js"></script>
+    <script src="/admin/js/counter/counter-custom.js"></script>
+    <script src="/admin/js/custom-card/custom-card.js"></script>
+    <script src="/admin/js/owlcarousel/owl.carousel.js"></script>
+    <script src="/admin/js/dashboard/dashboard_2.js"></script>
+    <script src="/admin/js/slick-slider/slick.min.js"></script>
+    <script src="/admin/js/slick-slider/slick-theme.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="/admin/js/theme-customizer/customizer.js"></script>
+    <script src="/admin/js/script.js"></script>
+    <!-- login js-->
+    <!-- Plugin used-->
+  </body>
+</html>
