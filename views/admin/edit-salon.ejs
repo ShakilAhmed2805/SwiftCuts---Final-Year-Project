@@ -1,0 +1,151 @@
+<% include header %>
+
+<!--    PAGE HEADER START-->
+<% include page-header %>
+<!--    PAGE HEADER ENDS -->
+
+<!--    PAGE BODY STARTS -->
+<div class="page-body-wrapper sidebar-icon">
+    <% include main-nav %>
+    <div class="page-body">
+        <div class="container-fluid">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Edit Salon</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/admin"><i data-feather="home"></i></a></li>
+                            <li class="breadcrumb-item">Admin</li>
+                            <li class="breadcrumb-item active"><%= salon.name %></li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Container-fluid starts-->
+        <div class="container-fluid">
+            <div class="edit-profile">
+                <div class="row">
+
+                    <div class="col-xl-4">
+                        <div class="card custom-card">
+                            <div class="card-header p-0"><img class="img-fluid" id="image-preview" src="/images/salons/<%= salon.image %>" alt=""></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-8">
+                        <form class="card" action="/admin//salon/edit/<%= salon.id%>" method="post" enctype="multipart/form-data">
+                            <div class="card-header pb-0">
+                                <h4 class="card-title mb-0">Edit Salon</h4>
+                                <div class="card-options"><a class="card-options-collapse" href="#" data-bs-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a><a class="card-options-remove" href="#" data-bs-toggle="card-remove"><i class="fe fe-x"></i></a></div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+
+                                    <%if(success != ''){%>
+
+                                        <div class="alert alert-success dark" role="alert">
+                                            <p><%= success%></p>
+                                        </div>
+                                        <div class="form-group col-xl-12">
+                                            <label><span class="alert-success"></span></label>
+                                        </div>
+
+                                    <%}%>
+
+                                        <%if(errors != ''){%>
+                                        <div class="alert alert-secondary dark" role="alert">
+                                        <%errors.forEach(function(error){%>
+                                                <p><%= error.msg%></p>
+                                        <%})%>
+                                        </div>
+                                        <%}%>
+
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Name</label>
+                                            <input class="form-control" name="salon_name"  type="text" placeholder="<%= salon.name %>" value="<%= salon.name %>" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Address</label>
+                                            <input class="form-control" name="addresse" type="text"  placeholder="<%= salon.address %>" value="<%= salon.address %>" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">City</label>
+                                            <input class="form-control" name="city" type="text" placeholder="<%= salon.city %>" value="<%= salon.city %>" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">State</label>
+                                            <input class="form-control" name="state" type="text" placeholder="<%= salon.state %>" value="<%= salon.state %>" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="mb-3">
+                                            <label class="form-label">Postal Code</label>
+                                            <input class="form-control" name="postcode" type="text" placeholder="<%= salon.postcode %>" value="<%= salon.postcode %>" required>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-md-5">
+                                        <div class="mb-3">
+                                            <label class="form-label">Country</label>
+                                            <select name="country" class="form-control btn-square" required>
+
+                                                <!--      Place all countries Options in ejs -->
+                                                <option >--Select--</option>
+                                                <%countries.forEach(function (country){ %>
+                                                    <%if(salon.country == country){%>
+                                                        <option value="<%= country %>" selected><%= country %></option>
+                                                    <%}else{%>
+                                                    <option value="<%= country %>"><%= country %></option>
+                                                    <%}%>
+                                                 <% })%>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div>
+                                            <label class="form-label">Image</label>
+                                            <input id="image-upload"   class="form-control" type="file" id="fileinput" name ="image"  accept="image/*">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                                <div class="card-footer  pt-0">
+                                    <a class="btn btn-primary text-start" >Cancel</a>
+                                    <button class="btn btn-primary text-end" type="submit">Edit Salon</button>
+                                </div>
+
+
+                           
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container-fluid Ends-->
+    </div>
+</div>
+<!--     PAGE BODY ENDS -->
+
+<% include footer %>

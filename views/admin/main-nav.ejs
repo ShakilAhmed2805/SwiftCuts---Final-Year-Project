@@ -1,0 +1,52 @@
+
+<!-- Page Sidebar Start-->
+<header class="main-nav">
+    <div class="logo-wrapper"><a href="/admin"><img class="img-fluid" src="/admin/images/logo/logo.png" alt=""></a></div>
+    <div class="logo-icon-wrapper"><a href="/admin"><img class="img-fluid" src="/admin/images/logo/logo-icon.png" alt=""></a></div>
+    <div class="morden-logo"><a href="/admin"><img class="img-fluid" src="/admin/images/logo/morden-logo.png" alt=""></a></div>
+
+    <nav>
+        <div class="main-navbar">
+            <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+            <div id="mainnav">
+                <ul class="nav-menu custom-scrollbar">
+                    <li class="back-btn">
+                        <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
+                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <li class="dropdown"><a id="Admin Dashboard" class="nav-link menu-title link-nav" href='/admin'><i data-feather="home"> </i><span>Dashboard</span></a></li>
+
+                    <li class="dropdown"><a id="Add Salon" class="nav-link menu-title link-nav" href='/admin/add-salon'><i data-feather="plus"> </i><span>Add Salon</span></a></li>
+
+                    <li class="dropdown"><a id="Salons" class="nav-link menu-title link-nav" href="/admin/salons"><i data-feather="list"> </i><span>Salon List       </span></a></li>
+
+                <%if (title == 'Edit Salon'){%>
+                        <li class="dropdown"><a id="Edit Salon" class="nav-link menu-title link-nav" ><i data-feather="edit"> </i><span>Edit Salon      </span></a></li>
+                    <%}%>
+
+                    <li class="dropdown"><a id="Salons" class="nav-link menu-title link-nav" href="/admin/services"><i data-feather="file-text"> </i><span>Services        </span></a></li>
+                    <li class="dropdown"><a id="Salons" class="nav-link menu-title link-nav" href="/admin/add-service"><i data-feather="edit-3"> </i><span>Add Service      </span></a></li>
+
+                    <li class="dropdown"><a id="Salons" class="nav-link menu-title link-nav" href="/admin/add-service"><i data-feather="command"> </i><span>Appointment Queue     </span></a></li>
+
+
+                </ul>
+            </div>
+            <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+        </div>
+    </nav>
+</header>
+<!-- Page Sidebar Ends-->
